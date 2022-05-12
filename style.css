@@ -2,3 +2,30 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(N, 1fr);
+  grid-template-rows: repeat(N, 1fr);
+  border: 2px;
+  border-style: groove;
+  border-color: black;
+}
+
+.blocks {
+  border: 1px;
+  border-style: groove;
+  border-color: black;
+}
