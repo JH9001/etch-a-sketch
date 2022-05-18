@@ -1,11 +1,23 @@
 h1 {
   display: flex;
   justify-content: center;
+  margin: 0px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.rainbowButton {
+  font-weight: bold;
+}
+
+.clearButton {
+  font-weight: bold;
 }
 
 .flexContainer {

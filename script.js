@@ -11,13 +11,22 @@ const clearButton = document.querySelector('.clearButton');
 let booleanValue = false;
 
 //toggle rainbow button value true of false
-  function toggleButton () {
+function toggleButton () {
   if (booleanValue == true) {
     booleanValue = false;
   } else {
     booleanValue = true;
   }
 };
+
+//color button toggle style
+rainbowButton.addEventListener('click', function (e) {
+  if (booleanValue == true) {
+    rainbowButton.style.color = getRandomColor();
+  } else { (booleanValue == false) 
+    rainbowButton.style.color = 'black';
+  }
+});
 
 //change block color on hover
 gridContainer.addEventListener('mouseover', function (e) {
