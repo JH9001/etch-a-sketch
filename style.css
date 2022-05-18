@@ -26,8 +26,8 @@ h1 {
 }
 
 .gridContainer {
-  width: 725px;
-  height: 725px;
+  width: 675px;
+  height: 675px;
   display: grid;
   grid-template-columns: repeat(N, 1fr);
   grid-template-rows: repeat(N, 1fr);
